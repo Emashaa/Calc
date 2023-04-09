@@ -1,6 +1,9 @@
+print('Привет!')
 print('x+y*z')
-a = float(input('введите число x: '))
-b = float(input('введите число y: '))
-c = float(input('введите число z: '))
+
+a = int(input('введите число x: '))
+b = int(input('введите число y: '))
+c = int(input('введите число z: '))
+
 result = a+(b*c) 
 print(f'{a}+{b}*{c}={result}')
